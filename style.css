@@ -1,13 +1,52 @@
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    width: 100%;
+    table-layout:fixed;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    
+}
+td {
+    height:35px;
+}
+/* 
+tr#test1{
+        display: flex;
+
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        width: 197%;
+    
+} */
+td#four{
+    width:200%
+}
+
+td,tr {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+  
+  
+
+
 body {
     background-color: red;
 }
 
-form {
-    margin: 20px;
-    padding: 30px;
-    background: linear-gradient(90deg, rgba(2,105,154,1) 0%, rgba(9,121,46,1) 24%, rgba(0,255,201,1) 100%);
-    font-family: 'Roboto', sans-serif;
-}
+
 h1 {
     color:blue;
     font-size: 10px;
