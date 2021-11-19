@@ -1,41 +1,49 @@
 
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 10px;
-    width: 100%;
-    table-layout:fixed;
-}
-th{
+.wrapper {
     border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-    
-}
-td {
-    height:35px;
-}
-/* 
-tr#test1{
-        display: flex;
-
-        border: 1px solid black;
-        text-align: center;
-        padding: 10px;
-        width: 197%;
-    
-} */
-td#four{
-    width:200%
-}
-
-td,tr {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
     border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-}
-
+    grid-column: 1/12;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    
+  }
+  .two {
+    border: 1px solid black;
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+  .three {
+    border: 1px solid black;
+    grid-column: 4/8;
+    grid-row: 2;
+  }
+  .four {
+    border: 1px solid black;
+    grid-column: 1/6;
+    grid-row: 3;
+  }
+ .five {
+    border: 1px solid black;
+    grid-column: 8/12;
+    grid-row: 2;
+  }
+ .six {
+       border: 1px solid black;
+    grid-column: 6/12;
+    grid-row: 3;
+  }
 
 
   
@@ -43,7 +51,7 @@ td,tr {
 
 
 body {
-    background-color: red;
+    /* background-color: red; */
 }
 
 
